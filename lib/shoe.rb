@@ -5,7 +5,6 @@ class Shoe
   BRANDS = []
   
   
-    # create the writer for brand and add the logic for the class constant
   def brand=(brand)
     @brand = brand
     BRANDS << brand 
