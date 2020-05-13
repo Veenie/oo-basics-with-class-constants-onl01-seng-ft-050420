@@ -4,9 +4,6 @@ class Shoe
 
   BRANDS = []
   
-  def initialize(brand)
-    @brand = brand
-  end
   
     # create the writer for brand and add the logic for the class constant
   def brand=(brand)
