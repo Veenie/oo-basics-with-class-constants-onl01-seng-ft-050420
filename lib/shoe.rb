@@ -8,10 +8,10 @@ class Shoe
     @brand = brand
   end
   
-    # create the writer for genre and add the logic for the class constant
-  def genre=(genre)
-    @genre = genre
-    BRANDS << genre 
+    # create the writer for brand and add the logic for the class constant
+  def brand=(brand)
+    @brand = brand
+    BRANDS << brand 
   end
 
   def cobble
